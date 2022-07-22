@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(202, 223, 241);
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+div.outer{
+    background-color: rgb(172, 173, 181);
+    /* margin: 2rem 35rem 0 35rem; */
+    margin: 3% 33% 3% 33%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+@media (max-width: 991px){
+    div.outer{
+        background-color: rgb(172, 173, 181);
+        margin: 3% 25% 0 25%;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5%;
+        border: 2px solid black;
+    }
+}
+
+div.inner{
+    
+    background-color: rgb(245, 249, 247);
+    height: 15%;
+    margin: 0 10% 25% 10%;
+    position: relative;
+    top: 3rem;
+    text-align: right;
+    font-size: 3rem;
+    border: 2px solid black;
+}
+.btn{
+    margin: 5% auto 5% auto;
+    width: 60%;
+}
